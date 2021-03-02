@@ -1,0 +1,22 @@
+.search {
+  display: flex;
+  justify-content: start;
+  margin-top: -25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.search > input {
+  outline: none;
+  border: none;
+  margin-right: 20px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.search > .MuiSvgIcon-root {
+  margin-left: 10px;
+  color: gray;
+}

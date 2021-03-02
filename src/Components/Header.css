@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  height: 70px;
+  
+}
+
+.header__leftside {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header__left__Avatar {
+  margin-right: 10px;
+}
+
+.header__rightside {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header__rightside > .MuiSvgIcon-root {
+  margin-right: 35px;
+  color: rgb(78, 78, 78);
+}

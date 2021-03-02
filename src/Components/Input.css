@@ -1,0 +1,30 @@
+.input {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.input__left {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.input__right {
+  display: flex;
+  flex: 1;
+}
+
+.input__right > form {
+  display: flex;
+  flex: 1;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.input__right > form > input {
+  display: flex;
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px;
+}

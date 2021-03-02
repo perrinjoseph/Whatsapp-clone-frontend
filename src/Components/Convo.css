@@ -1,0 +1,16 @@
+.convo {
+  display: flex;
+  margin: 15px 0px;
+  align-items: center;
+  padding: 15px 5px;
+  border-radius: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.convo:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.convo__left {
+  margin-right: 20px;
+}
